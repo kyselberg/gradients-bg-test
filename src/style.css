@@ -1,31 +1,10 @@
-html, body {
-  font-family: 'Dongle', sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
-.text-container {
-  z-index: 100;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  position: absolute;
-  top: 0;
-  left: 0;
-  justify-content: center;
-  align-items: center;
-  font-size: 96px;
-  color: white;
-  opacity: 0.8;
-  user-select: none;
-  text-shadow: 1px 1px rgba(0,0,0,0.1);
-}
 
 :root {
-  --color-bg1: rgb(108, 0, 162);
-  --color-bg2: rgb(0, 17, 82);
+  --color-bg1: rgb(18, 20, 30);
+  --color-bg2: rgb(18, 20, 30);
   --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
+  --color2: 231, 107, 246;
   --color3: 100, 220, 255;
   --color4: 200, 50, 50;
   --color5: 180, 180, 50;
@@ -71,7 +50,7 @@ html, body {
 }
 
 
-.gradient-bg {
+.gradient-section-container-block {
   width: 100vw;
   height: 100vh;
   position: relative;

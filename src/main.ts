@@ -1,4 +1,4 @@
-import './style.scss';
+import './style.css';
 
 
 
@@ -17,11 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
             move();
         });
     }
-
-    // window.addEventListener('mousemove', (event) => {
-    //     tgX = event.clientX;
-    //     tgY = event.clientY;
-    // });
 
     move();
 });
