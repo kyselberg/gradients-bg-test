@@ -1,4 +1,4 @@
-import './style.scss'
+import './style.scss';
 
 
 
@@ -18,12 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.addEventListener('mousemove', (event) => {
-        tgX = event.clientX;
-        tgY = event.clientY;
-    });
+    // window.addEventListener('mousemove', (event) => {
+    //     tgX = event.clientX;
+    //     tgY = event.clientY;
+    // });
 
     move();
 });
-
-
